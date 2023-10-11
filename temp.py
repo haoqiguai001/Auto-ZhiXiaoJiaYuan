@@ -32,7 +32,7 @@ if __name__ == '__main__':
         time.sleep(1)
         print('已加载用户 ' + user['alias'])
         headers = {
-            'Auth': '这里填你的授权码',
+            'Auth': 'b1c2',
             "content-type": "application/json;charset=UTF-8"
         }
         resp = requests.post('http://api.sandbox.sxba.xuanran.cc', headers=headers,
